@@ -1,0 +1,219 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'PT Sans Caption', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+/*-------------------HEADER///CARRUSEL------------------*/
+header{
+    background-color: rgb(238, 85, 85);
+    border: 1px solid black;
+    padding: 15px;  
+    position: sticky; 
+    top: 0px;
+    
+}
+
+.carrusel_principal{
+    width: auto;
+    height: 350px;
+    text-align:center;
+    color: white;
+    background-color: blueviolet;
+    border: 5px solid black;
+}
+
+.span_carrusel{
+    color: white;
+    background-color: black;
+    padding: 2px;
+}
+/*------------------NAV-----------------------*/
+nav{
+    display: grid;
+}
+/*------------------LISTA----------------*/
+ul{
+  margin: 1.5px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+ul li{
+    list-style-type: none;  
+}
+
+a {
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: black; 
+    padding: 4px;
+}
+
+a:hover{
+    color: white;
+    text-decoration: underline;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(218, 15, 15); 
+    border: 1px solid white;
+    border-radius: 25%;
+    padding: 5px;
+    transition: all 1s;
+}
+/*------------------H1-H2-H3-P-----------------*/
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    margin: 1em;
+    font-weight: 600;
+}
+
+h2{
+    text-align: center;
+    font-weight: 500;
+    border: 2px solid black;
+    color: black;   
+    background-color: rgb(238, 85, 85);
+    padding: 10px;
+    margin: 30px auto;
+
+}
+
+h3{
+    text-align: center;
+    margin: 1em;
+}
+
+p{
+    margin: 2vh;
+    font-weight: 700;
+}
+/*-----------------IMAGENES GENERALES---------------*/
+img{
+    margin: 25px;
+    border: 3px solid black;
+    width: 200px;
+    height: 190px;   
+}
+
+.producto-base{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    height: 395px;
+    width: 300px;
+    border: 3px solid rgb(218, 15, 15);
+    padding: 5px;
+    margin: 28px;
+    border-radius: 20%;
+
+}
+
+.productos-imagenes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.fondo-p-imagen{
+    background-color: lightgray;
+    padding: 2px;
+}
+
+/*-------------------------SECCION VENDER-------------*/
+.venta_imagen{
+    width: 300px;
+}
+
+#texto_venta{
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.vender_button{
+    padding: 8px;
+    margin: 5px;
+    color: white;
+    background-color: rgb(0, 187, 0);
+}
+
+.div_ventas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*---------------------CARRITO----------------*/
+.añadir-carrito{
+    background-color: rgb(0, 187, 0);
+    color: white;
+    padding: 1px;
+}
+/*-------------------FORMULARIO----------------*/
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.objetos_formularios{
+    margin: .7em;
+    padding: .3em;
+}
+
+.tratohecho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagentrato{
+    border: none;
+}
+/*-------------------FOOTER---------------*/
+span{
+    color: rgb(45, 118, 201);
+    text-decoration: underline;
+}
+
+.p_footer{ 
+    text-align: center;
+    color: black;
+    background-color:rgb(238, 85, 85);
+
+    letter-spacing: .5px;
+    font-weight: 300;
+    margin: 1vh;
+}
+
+footer{
+    background-color: rgb(238, 85, 85);
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+}
+@media screen and (max-width:768px) {
+
+    body{
+        background-color: white;
+    }
+
+    h1{
+        height: 45px;
+    }
+
+    .productos-imagenes{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+}

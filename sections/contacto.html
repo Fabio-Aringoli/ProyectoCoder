@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Todo Comercio-formulario</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="./productos.html">Productos</a>
+                </li>
+                <li>
+                    <a href="./vender.html">Vender</a>
+                </li>
+                <li>
+                    <a href="./contacto.html">Contacto</a>
+                </li>
+                <li>
+                    <a href="./nosotros.html">Nosotros</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <article>
+            <form class="formulario">
+                <h1>Formulario</h1>
+                <p>A continuación completa el formulario correctamente para recibir ayuda.</p>                
+                <label for="nombre_apellido" class="objetos_formularios">Nombre/s y Apellido/s</label>
+                <input type="text" name="nombre_apellido" required class="objetos_formularios">                                    
+                <label for="edad" class="objetos_formularios">Edad</label>
+                <input type="number" name="edad" required class="objetos_formularios">                  
+                <label for="observaciones" class="objetos_formularios">¿En qué podemos ayúdarle?</label>
+                <textarea type="text" name="observaciones" class="objetos_formularios"></textarea>                  
+                <!--<div>Hombre</div>
+                <input type="radio" name="sexo" value="Hombre">
+                <div>Mujer</div>
+                <input type="radio" name="sexo" value="Mujer">
+                <br>-->               
+                <!--
+                <select name="estado">
+                <option value="N">Nuevo</option>
+                <option value="U">Usado</option>
+                </select>-->      
+                <div class="objetos_formularios">Acepto los términos y condiciónes</div>
+                <input type="checkbox" name="acepto" value="1" required class="objetos_formularios">            
+                <div class="div_button"><input type="submit" value="Enviar" class="objetos_formularios"></div>
+                <div class="div_button"><input type="reset" value="Borrar información" class="objetos_formularios"></div>
+            </form>
+        </article>
+    </section>
+
+    <footer>
+     <p class="p_footer">San Isidro - Buenos Aires</p>
+     <p class="p_footer">República Argentina</p>
+     <p class="p_footer">Fabio G. Aringoli</p>
+     <p class="p_footer">WhatsApp : +54 11 5607-7127</p>
+     <p class="p_footer">E-mail : Aringolifabio@gmail.com</p>
+     <p class="p_footer">Todos los derechos reservados ©</p>
+    </footer>
+</body>
+</html>
