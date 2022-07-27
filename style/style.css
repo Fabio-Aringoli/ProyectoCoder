@@ -98,7 +98,7 @@ p{
 /*-----------------IMAGENES GENERALES---------------*/
 img{
     margin: 25px;
-    border: 3px solid black;
+    border: 3px solid lightgray;
     width: 200px;
     height: 190px;   
 }
@@ -121,7 +121,7 @@ img{
 }
 .producto-base:hover{
     transition: all .5s;
-    box-shadow: 0px 0px 15px 5px rgb(218, 15, 15);
+    box-shadow: 0px 10px 20px rgb(218, 15, 15);
 }
 .productos-imagenes{
     display: flex;
