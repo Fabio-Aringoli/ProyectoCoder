@@ -102,11 +102,6 @@ img{
     width: 200px;
     height: 190px;   
 }
-/*----------------------------GIT/IMG-----------------------------------*/
-img:hover{
-    transform: rotate(15deg);
-    transition: all 1s;
-}
 /*-----------------------------------------------------------------------*/
 .producto-base{
     display: flex;
